@@ -1,0 +1,860 @@
+<!doctype html><html itemscope itemtype="https://schema.org/WebPage" lang="en">
+<!-- InstanceBegin template="/Templates/2016_Master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Greatest Common Factor Calculator</title>
+    <meta name="description" itemprop="description" content="Calculate the GCF, GCD or HCF and see work with steps. Learn how to find the greatest common factor using factoring, prime factorization and the Euclidean Algorithm. The greatest common factor of two or more whole numbers is the largest whole number that divides evenly into each of the numbers." />
+    <meta name="keywords" itemprop="keywords" content="gcf, gcd, hcf, greatest common factor" />
+    <meta name="author" content="CalculatorSoup, LLC" />
+    <meta name="thumbnail" content="https://www.calculatorsoup.com/images/thumbnails/calculators_math_gcf.png" />
+    <link rel="canonical" href="https://www.calculatorsoup.com/calculators/math/gcf.php" />
+    <meta itemprop="image" content="https://www.calculatorsoup.com/images/thumbnails/calculators_math_gcf.png">
+    <!-- swiftype-->
+    <meta class="swiftype" name="image" data-type="enum" content="https://www.calculatorsoup.com/images/thumbnails/calculators_math_gcf.png" />
+    <!-- for other features refer to https://www.w3.org/wiki/WebSchemas/Accessibility -->
+    <meta itemprop="accessibilityFeature" content="displayTransformability" />
+    <meta itemprop="accessibilityFeature" content="highContrastDisplay" />
+    <meta itemprop="accessibilityFeature" content="alternativeText" />
+    <meta itemprop="accessibilityFeature" content="fullKeyboardControl" />
+    <meta itemprop="accessibilityFeature" content="fullTouchControl" />
+    <meta itemprop="accessibilityFeature" content="structuralNavigation" />
+    <!-- Application-specific meta tags -->
+    <!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@CalculatorSoup">
+    <meta name="twitter:title" content="Greatest Common Factor Calculator">
+    <meta name="twitter:description" content="Calculate the GCF, GCD or HCF and see work with steps. Learn how to find the greatest common factor using factoring, prime factorization and the Euclidean Algorithm. The greatest common factor of two or more whole numbers is the largest whole number that divides evenly into each of the numbers.">
+    <meta name="twitter:url" content="https://www.calculatorsoup.com/calculators/math/gcf.php">
+    <meta name="twitter:image" content="https://www.calculatorsoup.com/images/thumbnails/calculators_math_gcf.png">
+    <meta name="twitter:image:alt" content="Greatest Common Factor Calculator">
+    <!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+    <!-- BEGIN facebook tags -->
+    <meta property="fb:app_id" content="122378774442407" />
+    <meta property="og:url" content="https://www.calculatorsoup.com/calculators/math/gcf.php" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Greatest Common Factor Calculator" />
+    <meta property="og:description" content="Calculate the GCF, GCD or HCF and see work with steps. Learn how to find the greatest common factor using factoring, prime factorization and the Euclidean Algorithm. The greatest common factor of two or more whole numbers is the largest whole number that divides evenly into each of the numbers." />
+    <meta property="og:image" content="https://www.calculatorsoup.com/images/thumbnails/calculators_math_gcf.png" />
+    <!--
+    <meta property="og:image:width" content="324" /><meta property="og:image:height" content="308" />
+    -->
+    <meta property="og:site_name" content="CalculatorSoup" />
+    <meta property="fb:admins" content="1090016545" />
+    <!-- <meta property="og:image" content="https://www.calculatorsoup.com/images/icons/calculatorsoup_fb.png?v=20161021" /> -->
+    <!-- END facebook tags -->
+    <!-- BEGIN favicon icon files -->
+    <!-- http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=20170215">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=20170215">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=20170215" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=20170215" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=20170215" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=20170215" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=20170215">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=20170215" color="#333333">
+    <link rel="shortcut icon" href="/favicon.ico?v=20170215">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=20170215">
+    <meta name="theme-color" content="#ffffff">
+    <!-- END smartphone icon files -->
+    <!-- stop ios from turning numbers into links -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- core css -->
+    <link rel="stylesheet" href="https://www.calculatorsoup.com/css/styles201602.css?v=20201026" type="text/css" media="all" />
+    <!-- css page specific page -->
+    <style type="text/css">
+
+		#calculatorBlock {
+			width:320px;
+		}
+		div#contentBlock div.BlockMinWidth {
+			width:300px;
+			overflow:hidden;
+		}
+		
+</style>
+    <style>
+#input {
+    width: 80%;
+}
+#answer {
+}
+</style>
+    <style>
+    #ADrightTopBlock300 {
+        height: 602px;
+        width: 302px;
+        display: table;
+        margin: 0 auto 20px auto;
+    }
+    </style>
+    <style>
+#ADtopBlock {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 302px;
+    height: 252px;
+    float: none;
+}
+
+@media screen and (min-width: 601px) {
+    #ADtopBlock {
+        display: none;
+    }
+}
+    </style>
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+    <!-- google analytics script -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-201728-7', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- google adsense starting script -->
+    <script async src="https://powerad.ai/script.js"></script>
+    <!-- End Next Millennium <head> Script -->
+    </head>
+<body>
+    <!-- open wrapper -->
+    <div id="wrapper">
+        <!-- start header file -->
+        <!-- Google Translate Banner http://translate.google.com/manager/website/add -->
+        <!-- <div id="google_translate_element"></div> -->
+        <noscript>
+            <div data-swiftype-index="false" class="borderBottom_1 calculatorTitle">
+                <br>
+        You must Enable your JavaScript for All Features of CalculatorSoup.com to Operate Correctly!
+        
+                <br>
+                <br>
+    
+            </div>
+        </noscript>
+        <header data-swiftype-index="false">
+            <div class="skip">
+                <a href="#calculatorBlock">skip to calculator</a>
+            </div>
+            <div class="skip">
+                <a href="#contentBlock">skip to main content</a>
+            </div>
+            <div itemscope itemtype="https://schema.org/Organization">
+                <div class="table centered simpleTable">
+                    <div class="row">
+                        <div id="headerLeft">
+                            <!-- Logo and Title -->
+                            <img src="https://www.calculatorsoup.com/images/icons/calculator_soup_48x48.png" alt="Calculator Soup Logo" width="48" height="48" id="calculatorlogo" itemprop="logo" />
+                            <p id="title">
+                                <a itemprop="url" href="https://www.calculatorsoup.com/" title="online calculator resources">
+                                    <meta itemprop="legalName" content="CalculatorSoup, LLC">
+                                    <meta itemprop="alternateName" content="CalculatorSoup">
+                                    <span itemprop="alternateName">
+                                        <span class="topCalculator">Calculator</span>&nbsp;
+                                        <span class="topSoup">Soup</span>
+                                    </span>
+                                </a>
+                                <sup>&reg;</sup>
+                            </p>
+                            <p class="tag">Online&nbsp;Calculators</p>
+                        </div>
+                        <div id="headerCenter">
+                            <div id="search">
+                                <!--  Swiftype input  -->
+                                <label for="search_box" class="hidden">Search</label>
+                                <input type="text" id="search_box" class="st-default-search-input" placeholder="search">
+                                <!-- End Swiftype input -->
+                                <!-- Swiftype search code  -->
+                                <script type="text/javascript">
+                            (function (w, d, t, u, n, s, e) {
+                                w['SwiftypeObject'] = n;
+                                w[n] = w[n] || function () {
+                                    (w[n].q = w[n].q || []).push(arguments);
+                                };
+                                s = d.createElement(t);
+                                e = d.getElementsByTagName(t)[0];
+                                s.async = 1;
+                                s.src = u;
+                                e.parentNode.insertBefore(s, e);
+                            })(window, document, 'script', '//s.swiftypecdn.com/install/v2/st.js', '_st');
+
+                            _st('install', '1u3sJPoCKKXU4zXSs1Q1', '2.0.0');
+                        </script>
+                                <!-- End Swiftype search code -->
+                    
+                            </div>
+                        </div>
+                        <div id="headerRight">
+                            <nav>
+                                <div id="topNavRight">
+                                    <a href="https://www.calculatorsoup.com/suggest-calculator.php" title="request new calculators or suggest changes to a current online calculator">Contact</a>&nbsp;|&nbsp;
+                                    <a href="https://www.calculatorsoup.com/calculators/" title="index of calculators">Calculator&nbsp;Index</a>
+                                </div>
+                            </nav>
+                            <div id="topFollow">
+                                <a itemprop="sameAs" id="facebookFollowTop" href="https://www.facebook.com/calculatorsoup" target="_blank" title="Follow CalculatorSoup on Facebook">
+                                    <img src="/images/social/share_48_facebook.png" alt="find CalculatorSoup and become a fan on facebook" class="followButton" />
+                                </a>
+                                <a itemprop="sameAs" id="twitterFollowTop" href="https://twitter.com/calculatorsoup" target="_blank" title="Follow CalculatorSoup on Twitter">
+                                    <img src="/images/social/share_48_twitter.png" alt="follow CalculatorSoup updates on twitter"  class="followButton" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header file -->
+        <!-- open main content -->
+        <div id="contentMain" itemprop="mainContentOfPage">
+            <!-- open main -->
+            <main>
+                <!-- pop up basic calculator begin -->
+                <div data-swiftype-index="false" class="floatRight" id="basicCalculatorPop">
+                    <a href="https://www.calculatorsoup.com/calculators/math/basic.php" onclick="window.open('https://www.calculatorsoup.com/calculators/math/basic.php?do=pop','Basic Calculator','width=350,height=600,toolbar=no,menubar=no,scrollbars=yes,resizable=yes');return false;">Basic Calculator</a>
+                </div>
+                <!-- pop up basic calculator end -->
+                <!-- breadcrumbs begin -->
+                <div data-swiftype-index="false" id="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="https://www.calculatorsoup.com" title="Calculator Categories">
+                            <span itemprop="name">Calculators</span>
+                            <meta itemprop="position" content="1" />
+                        </a>
+                    </div>
+			  &gt;
+                    <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="https://www.calculatorsoup.com/calculators/math/" >
+                            <span itemprop="name">Math</span>
+                            <meta itemprop="position" content="2" />
+                        </a>
+                    </div> &gt;
+                    <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" id="lastBreadcrumb">
+                        <a itemprop="item" href="https://www.calculatorsoup.com/calculators/math/gcf.php">
+                            <span itemprop="name">Greatest Common Factor (GCF, HCF, GCD) Calculator</span>
+                            <meta itemprop="position" content="3" />
+                        </a>
+                    </div>
+                </div>
+                <!-- breadcrumbs end -->
+                <h1 itemprop="name" id="pageH1">Greatest Common Factor (GCF, HCF, GCD) Calculator</h1>
+                <!-- ad block 1 top and left begin -->
+                <!-- start Top and Left Ads -->
+                <aside>
+                    <div id="ADtopBlock"></div>
+                </aside>
+                <aside>
+                    <div id="ADleftBlock">                    </div>
+                </aside>
+                <!-- end Top and Left Ads -->
+                <!-- ad block 1 top and left end -->
+                <!-- start calculatorBlock div -->
+                <div id="calculatorBlock">
+                    <!-- start calculator goes everywhere if calculator -->
+                    <div itemscope itemtype="https://schema.org/SoftwareApplication">
+                        <link itemprop="applicationCategory" href="https://schema.org/WebApplication"/>
+                        <meta itemprop="operatingSystem" content="Browser required with JavaScript support">
+                        <link itemprop="url" href="https://www.calculatorsoup.com/calculators/math/gcf.php" />
+                        <link itemprop="additionalType" href="http://www.productontology.org/id/Software_calculator" />
+                        <link itemprop="additionalType" href="http://www.productontology.org/id/Greatest_common_divisor" />
+                        <link itemprop="additionalType" href="http://www.productontology.org/id/Factorization" />
+                        <div id="calculatorWrap">
+                            <!-- InstanceBeginEditable name="Calculator" -->
+                            <form action="gcf.php" method="post" class="calculatorForm" id="CalculatorForm" name="CalculatorForm" onsubmit="calculateButtonWorking()">
+                                <div itemprop="name" class="calculatorTitle">Greatest Common Factor (
+                                    <abbr title="greatest common factor">GCF</abbr>)
+                                </div>
+                                <div class="calculatorInputs">
+                                    <div class="calculatorInputGroup">
+                                        <label for="input">Find the 
+                                            <abbr title="greatest common factor">GCF</abbr> of:
+                                            <br>
+                                            <span class="note small">enter two or more whole numbers
+                                                <br>separated by commas or spaces.
+                                            </span>
+                                        </label>
+                                        <br>
+                                        <br>
+                                        <input name="input" id="input" type="text" value="8 12 20" size="30" required autofocus />
+                                    </div>
+                                </div>
+                                <!--
+                            Buttons and Answer and Links
+                            -->
+                                <div class="calculatorButton floatRight" id="actionCalculate">
+                                    <input type="submit" value="Calculate" class="btn" name="calculateButton" id="calculateButton">
+                            
+                                </div>
+                                <div class="calculatorButton floatLeft" id="actionClear">
+                                    <input type="reset" name="reset" value="Clear" class="btn" onclick="return resetCalculator(this.form);">
+                            
+                                </div>
+                                <div class="clearBoth"></div>
+                                <div id="calculatorAnswer"> Answer:
+                                
+                                    <br>
+                                    <div id="answer">
+                                        <div class="alignCenter">
+                                            <abbr title="greatest common factor">GCF</abbr> = 4
+                                        </div>
+                                        <br>for the values 8, 12, 20
+                                        <br>
+                                        <br>
+                                        <hr>Solution by Factorization:
+                                        <hr>
+                                        <br>The factors of 8 are: 1, 2, 
+                                        <b>4</b>, 8
+                                        <br>
+                                        <br>The factors of 12 are: 1, 2, 3, 
+                                        <b>4</b>, 6, 12
+                                        <br>
+                                        <br>The factors of 20 are: 1, 2, 
+                                        <b>4</b>, 5, 10, 20
+                                        <br>
+                                        <br>Then the greatest common factor is 4.
+                                        <br>
+                                        <br>
+                                        <div class="note small">You can also find the GCF using
+                                            <br>
+                                            <a href="#prime">Prime Factorization</a> or
+                                            <a href="#euclid">Euclid's Algorithm</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="action" value="solve" />
+                                <input type="hidden" name="page_id" value="MTYwNTk1NDIzOA==" />
+                            </form>
+                            <!-- InstanceEndEditable -->
+                            <div data-swiftype-index="false" class="alignCenter">
+                                <br>
+                                <div class="sharelabel">
+                                    <label for="get_link">
+                                        <span class="note small">Share this Answer Link: 
+                                            <a href="https://www.calculatorsoup.com/help/index.php#sharethiscalculation" target="_blank">help</a>
+                                            <br>Paste this link in email, text or social media.
+                                        </span>
+                                    </label>
+                                </div>
+                                <textarea class="get_link" id="get_link" placeholder="Do a calculation then copy the link from here." rows="3" onfocus="this.select()" ></textarea>
+                            </div>
+                            <div data-swiftype-index="false" class="note alignCenter">
+                                <br>
+                                <a href="https://www.calculatorsoup.com/calculators/calculator-widgets.php?folder=math/&folderName=Math&folder2=&folderName2=&calc=1&pop=1&url=https://www.calculatorsoup.com/calculators/math/gcf.php&h1=Greatest Common Factor (GCF, HCF, GCD) Calculator&pop_w=400&pop_h=600" rel="nofollow">Get a Widget for this Calculator</a>
+                            </div>
+                            <div id="titleSmall" class="alignRight">&copy; 
+                                <a href="https://www.calculatorsoup.com/" target="_blank" >
+                                    <span class="calculator">Calculator</span>&nbsp;
+                                    <span class="soup">Soup</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end calculator goes everywhere if calculator -->
+                    <div data-swiftype-index="false" class="shareContainerLarge">
+                        <div class="note small">Share this Calculator &amp; Page</div>
+                        <div class="socialButton">
+                            <a target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://www.calculatorsoup.com/calculators/math/gcf.php&title=Greatest Common Factor Calculator">
+                                <img class="shareButton" src="/images/social/share_48_facebook.png" alt="share on Facebook" width="48" height="48">
+                            </a>
+                        </div>
+                        <div class="socialButton">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https://www.calculatorsoup.com/calculators/math/gcf.php&text=Greatest Common Factor Calculator">
+                                <img class="shareButton" src="/images/social/share_48_twitter.png" alt="share on Twitter" width="48" height="48">
+                            </a>
+                        </div>
+                        <div class="socialButton">
+                            <a target="_blank" href="whatsapp://send?text=Greatest Common Factor Calculator at https://www.calculatorsoup.com/calculators/math/gcf.php">
+                                <img class="shareButton" src="/images/social/share_48_whatsapp.png" alt="share on Whats App" width="48" height="48">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end calculatorBlock div -->
+                <!-- ad block 2 right begin -->
+                <!-- Ads and Content 1 -->
+                <!-- ad block 2 right end -->
+                <!-- Content Block and Bottom Ads begin -->
+                <div id="contentBlock">
+                    <div class="BlockMinWidth"></div>
+                    <!-- InstanceBeginEditable name="image" -->
+                    <!-- InstanceEndEditable -->
+                    <h2 data-swiftype-index="false" class="firstH2" id="use">Calculator Use</h2>
+                    <!-- InstanceBeginEditable name="content" -->
+                    <p>Calculate 
+                        <abbr title="greatest common factor">GCF</abbr>,
+                        <abbr title="greatest common denominator or greatest common divisor">GCD</abbr> and
+                        <abbr title="highest common factor">HCF</abbr> of a set of two or more numbers and see the work using factorization.
+                    </p>
+                    <p>Enter 2 or more whole numbers separated by commas or spaces.</p>
+                    <p>The Greatest Common Factor Calculator solution also works as a solution for finding:</p>
+                    <ul>
+                        <li>Greatest common factor (
+                            <abbr title="greatest common factor">GCF</abbr>)
+                        </li>
+                        <li>Greatest common denominator (
+                            <abbr title="greatest common denominator">GCD</abbr>)
+                        </li>
+                        <li>Highest common factor (
+                            <abbr title="highest common factor">HCF</abbr>)
+                        </li>
+                        <li>Greatest common divisor (
+                            <abbr title="greatest common divisor">GCD</abbr>)
+                        </li>
+                    </ul>
+                    <h2>What is the Greatest Common Factor?</h2>
+                    <p>The greatest common factor (GCF or GCD or HCF) of a set of whole numbers is the largest positive integer that divides evenly into all numbers with zero remainder. For example, for the set of numbers 18, 30 and 42 the
+                    
+                        <abbr title="greatest common factor">GCF</abbr> = 6.
+                    </p>
+                    <h2>Greatest Common Factor of 0</h2>
+                    <p>Any non zero whole number times 0 equals 0 so it is true that every non zero whole number is a factor of 0.</p>
+                    <p>k &times; 0 = 0 so, 0 &divide; k = 0 for any whole number k.</p>
+                    <p>For example, 5 &times; 0 = 0 so it is true that 0 &divide; 5 = 0. In this example, 5 and 0 are factors of 0. </p>
+                    <p>GCF(5,0) = 5 and more generally GCF(k,0) = k for any whole number k.</p>
+                    <p>However, GCF(0, 0) is undefined.</p>
+                    <h2>How to Find the Greatest Common Factor (GCF) </h2>
+                    <p>There are several ways to find the greatest common factor of numbers. The most efficient method you use depends on how many numbers you have, how large they are and what you will do with the result.</p>
+                    <h3>Factoring </h3>
+                    <p>To find the
+                    
+                        <abbr title="greatest common factor">GCF</abbr> by factoring, list out all of the factors of each number or find them with a
+                        <a href="https://www.calculatorsoup.com/calculators/math/factors.php">Factors Calculator</a>. The whole number factors are numbers that divide evenly into the number with zero remainder. Given the list of common factors for each number, the GCF is the largest number common to each list.
+                    </p>
+                    <blockquote>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> of 18 and 27
+                        </h4>
+                        <p>The factors of 18 are 
+                            <strong>1</strong>, 2,
+                            <strong>3</strong>, 6,
+                            <strong>9</strong>, 18.
+                        </p>
+                        <p>The factors of 27 are 
+                            <strong>1</strong>,
+                            <strong>3</strong>,
+                            <strong>9</strong>, 27.
+                        </p>
+                        <p>The common factors of 18 and 27 are 1, 3 and 9.</p>
+                        <p>The greatest common factor of 18 and 27 is 9. </p>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> of 20, 50 and 120
+                        </h4>
+                        <p>The factors of 20 are 1, 2, 4, 5, 10, 20.</p>
+                        <p>The factors of 50 are 1, 2, 5, 10, 25, 50.</p>
+                        <p>The factors of 120 are 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120.</p>
+                        <p>The common factors of 20, 50 and 120 are 1, 2, 5 and 10. (Include only the factors common to all three numbers.)</p>
+                        <p>The greatest common factor of 20, 50 and 120 is 10.</p>
+                    </blockquote>
+                    <h3>
+                        <a id="prime" name="prime">Prime Factorization</a>
+                    </h3>
+                    <p>To find the
+                    
+                        <abbr title="greatest common factor">GCF</abbr> by prime factorization, list out all of the prime factors of each number or find them with a
+                        <a href="https://www.calculatorsoup.com/calculators/math/prime-factors.php">Prime Factors Calculator</a>. List the prime factors that are common to each of the original numbers. Include the highest number of occurrences of each prime factor that is common to each original number. Multiply these together to get the
+                        <abbr title="greatest common factor">GCF</abbr>.
+                    </p>
+                    <p>You will see that as numbers get larger the prime factorization method may be easier than straight factoring.</p>
+                    <blockquote>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> (18, 27)
+                        </h4>
+                        <p>The prime factorization of 18 is 2 x 3 x 3 = 18.</p>
+                        <p>The prime factorization of 27 is 3 x 3 x 3 = 27.</p>
+                        <p>The occurrences of common prime factors of 18 and 27 are 3 and 3.</p>
+                        <p>So the greatest common factor of 18 and 27 is 3 x 3 = 9. </p>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> (20, 50, 120)
+                        </h4>
+                        <p>The prime factorization of 20 is 2 x 2 x 5 = 20.</p>
+                        <p>The prime factorization of 50 is 2 x 5 x 5 = 50.</p>
+                        <p>The prime factorization of 120 is 2 x 2 x 2 x 3 x 5 = 120.</p>
+                        <p>The occurrences of common prime factors of 20, 50 and 120 are 2 and 5. </p>
+                        <p>So the greatest common factor of 20, 50 and 120 is 2 x 5 = 10. </p>
+                    </blockquote>
+                    <h3>
+                        <a id="euclid" name="euclid">Euclid's Algorithm</a>
+                    </h3>
+                    <p>What do you do if you want to find the
+                    
+                        <abbr title="greatest common factor">GCF</abbr> of more than two very large numbers such as 182664, 154875 and 137688? It's easy if you have a
+                        <a href="https://www.calculatorsoup.com/calculators/math/factors.php">Factoring Calculator</a> or a
+                        <a href="https://www.calculatorsoup.com/calculators/math/prime-factors.php">Prime Factorization Calculator</a> or even the
+                        <abbr title="greatest common factor">GCF</abbr> calculator shown above. But if you need to do the factorization by hand it will be a lot of work.
+                    </p>
+                    <h2>How to Find the 
+                        <abbr title="greatest common factor">GCF</abbr> Using Euclid's Algorithm
+                    </h2>
+                    <ol>
+                        <li>Given two whole numbers, subtract the smaller number from the larger number and note the result.</li>
+                        <li>Repeat the process subtracting the smaller number from the result until the result is smaller than the original small number.</li>
+                        <li>Use the original small number as the new larger number. Subtract the result from Step 2 from the new larger number.</li>
+                        <li>Repeat the process for every new larger number and smaller number until you reach zero.</li>
+                        <li>When you reach zero, go back one calculation: the GCF is the number you found just before the zero result.</li>
+                    </ol>
+                    <p>For additional information see our
+                    
+                        <a href="https://www.calculatorsoup.com/calculators/math/gcf-euclids-algorithm.php">Euclid's Algorithm Calculator</a>.
+                    </p>
+                    <blockquote>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> (18, 27)
+                        </h4>
+                        <p> 27 - 18 = 9</p>
+                        <p>18 - 9 - 9 = 0 </p>
+                        <p>So, the greatest common factor of 18 and 27 is 9, the smallest result we had before we reached 0. </p>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> (20, 50, 120)
+                        </h4>
+                        <p>Note that the 
+                            <abbr title="greatest common factor">GCF</abbr> (x,y,z) =
+                            <abbr title="greatest common factor">GCF</abbr> (
+                            <abbr title="greatest common factor">GCF</abbr> (x,y),z). In other words, the
+                            <abbr title="greatest common factor">GCF</abbr> of 3 or more numbers can be found by finding the
+                            <abbr title="greatest common factor">GCF</abbr> of 2 numbers and using the result along with the next number to find the
+                            <abbr title="greatest common factor">GCF</abbr> and so on.
+                        </p>
+                        <p>Let's get the GCF (120,50) first</p>
+                        <p>120 - 50 - 50 = 120 - (50 * 2) = 20</p>
+                        <p>50 - 20 - 20 = 50 - (20 * 2) = 10</p>
+                        <p>20 - 10 - 10 = 20 - (10 * 2) = 0</p>
+                        <p>So, the greatest common factor of 120 and 50 is 10.</p>
+                        <p>Now let's find the
+                        
+                            <abbr title="greatest common factor">GCF</abbr> of our third value, 20, and our result, 10. GCF (20,10)
+                        </p>
+                        <p>20 - 10 - 10 = 20 - (10 * 2) = 0</p>
+                        <p>So, the greatest common factor of 20 and 10 is 10.</p>
+                        <p>Therefore, the greatest common factor of 120, 50 and 20 is 10.</p>
+                        <h4>Example: Find the 
+                            <abbr title="greatest common factor">GCF</abbr> (182664, 154875, 137688) or
+                            <abbr title="greatest common factor">GCF</abbr> (GCF(182664, 154875), 137688)
+                        </h4>
+                        <p>First we find the GCF (182664, 154875)</p>
+                        <p>182664 - (154875 * 1) = 27789</p>
+                        <p>154875 - (27789 * 5) = 15930</p>
+                        <p>27789 - (15930 * 1) = 11859</p>
+                        <p>15930 - (11859 * 1) = 4071</p>
+                        <p>11859 - (4071 * 2) = 3717</p>
+                        <p>4071 - (3717 * 1) = 354</p>
+                        <p>3717 - (354 * 10) = 177</p>
+                        <p>354 - (177 * 2) = 0</p>
+                        <p>So, the the greatest common factor of 182664 and 154875 is 177.</p>
+                        <p>Now we find the GCF (177, 137688)</p>
+                        <p>137688 - (177 * 777) = 159</p>
+                        <p>177 - (159 * 1) = 18</p>
+                        <p>159 - (18 * 8) = 15</p>
+                        <p>18 - (15 * 1) = 3</p>
+                        <p>15 - (3 * 5) = 0</p>
+                        <p>So, the greatest common factor of 177 and 137688 is 3.</p>
+                        <p>Therefore, the greatest common factor of 182664, 154875 and 137688 is 3.</p>
+                    </blockquote>
+                    <!--
+                <h3>Programming (php) to find the greatest common factor of 2 or more values using Euclid's Algorithm</h3><p>We can create a script that uses Euclid's Algorithm to find the <abbr title="greatest common factor">GCF</abbr> of 2 or more numbers. Of course you will need to handle incorrect user inputs such as 0, negative values or only one value if you are setting up your own calculator but this is the core script.</p><pre><code>
+        // set up an array of values to be evaluated
+        $values = array(225, 45, 15, 540)
+
+        // count the number of values in the array
+        $num_values = count($values);
+
+        // get the first 2 values in the array
+        $x = current($values);
+        $y = next($values);
+
+        // set up the larger and smaller of the values and initialize the result c
+        $a = max( $x, $y );
+        $b = min( $x, $y );
+        $c = 1;
+
+        // set up a for-loop to check through all of the values in the array
+        // the first pass will check 2 numbers then each additional pass will check 1
+        // make ($num_values - 1) passes
+        for ($i = 1; $i &lt; $num_values; $i ++)
+        {
+            // find the GCF of $a and $b
+            // it will be found when $c == 0 in the next do-while-loop
+            do
+            {
+                // subtract the lower number from the higher as many times as possible
+                // until our result is lower than the lower number
+                // this will do until $c is less than $b but not less than 0
+                do
+                {
+                    $c = $a - $b;
+                    $a = $c;
+                }
+                while ($c  &gt;  $b);
+
+                // capture last value of $b as the potential last GCF result
+                $gcf = $b;
+
+                // if $c did not = 0 we need to repeat with the values held in $b and $c
+                // at this point $b is higher than $c so we set up for the next iteration
+                // set $a to the higher number and $b to the lower number
+                $a = $b;
+                $b = $c;
+
+            }
+            while ($c != 0);
+
+            // if $c did == 0 then we have found the GCF of 2 numbers
+            // now set up to find the GCF of the last GCF we found
+            // and the next value in the array()
+            $x = $gcf;
+            $y = next($values);
+
+            $a = max( $x, $y );
+            $b = min( $x, $y );
+            $c = 1;
+
+        }  // end for loop through array()
+
+        //
+        // the greatest common factor of our array of values is now held in <strong>$gcf</strong>
+        //</code></pre><h3>Programming (php) to find the greatest common factor more efficiently</h3><p>Using Euclid's Algorithm to construct a php script to find the <abbr title="greatest common factor">GCF</abbr> of 2 or more numbers works very well. However, the process in the algorithm is the same as the  dividing one number by another and using the remainder. For this we can substitute the modulus function (%). a mod b is the remainder of a divided by b. We also move the initialization of $a and $b to the inside of the for-loop only.</p><pre><code>
+        // set up an array of values to be evaluated
+        $values = array(225, 45, 15, 540)
+
+        // count the number of values in the array
+        $num_values = count($values);
+
+        // get the first 2 values in the array
+        $x = current($values);
+        $y = next($values);
+
+        // set up a for-loop to check through all of the values in the array
+        // the first pass will check 2 numbers then each additional pass will check 1
+        // make ($num_values - 1) passes
+        for ($i = 1; $i &lt; $num_values; $i ++)
+        {
+            // set up the larger and smaller of the values
+            $a = max( $x, $y );
+            $b = min( $x, $y );
+            $c = 1;
+
+            // find the GCF of $a and $b
+            // it will be found when $c == 0
+            do
+            {
+                $c = $a % $b;
+
+                // capture last value of $b as the potential last GCF result
+                $gcf = $b;
+
+                // if $c did not = 0 we need to repeat with the values held in $b and $c
+                // at this point $b is higher than $c so we set up for the next iteration
+                // set $a to the higher number and $b to the lower number
+                $a = $b;
+                $b = $c;
+
+            }
+            while ($c != 0);
+
+            // if $c did == 0 then we have found the GCF of 2 numbers
+            // now set up to find the GCF of the last GCF we found
+            // and the next value in the array()
+            $x = $gcf;
+            $y = next($values);
+
+        }  // end for loop through array()
+
+        //
+        // the greatest common factor of our array of values is now held in <strong>$gcf</strong>
+        //</code>
+                      </pre>
+                      -->
+<h3>References </h3>
+<p>[1] Zwillinger, D. (Ed.). CRC Standard Mathematical Tables and Formulae, 31st Edition. New York, NY: CRC Press, 2003 p. 101.</p>
+<p>[2] Weisstein, Eric W. &quot;
+    <a href="http://mathworld.wolfram.com/GreatestCommonDivisor.html">Greatest Common Divisor</a>.&quot; From
+    <i>MathWorld</i>--A Wolfram Web Resource.
+</p>
+<p>Help With Fractions:
+                    
+    <a href="http://www.helpwithfractions.com/greatest-common-factor.html">Finding the Greatest Common Factor</a>.
+</p>
+<p>The Math Forum: 
+    <a href="http://mathforum.org/library/drmath/view/58134.html">LCD, LCM</a>.
+</p>
+<p>Wikipedia: 
+    <a href="http://en.wikipedia.org/wiki/Euclidean_algorithm">Euclidean Algorithm</a>.
+</p>
+<!-- InstanceEndEditable -->
+<!-- ad block 3 bottom begin -->
+<!-- Ads and Content 3 -->
+<!-- start ads bottom div -->
+<div id="ADbottomBlockWrap">
+    <aside>
+        <div id="ADbottomBlock728">  </div>
+    </aside>
+    <aside>
+        <div id="ADbottomBlock336">  </div>
+    </aside>
+    <aside>
+        <div id="ADbottomBlock300">  </div>
+    </aside>
+</div>
+<!-- end ads bottom div -->
+<!-- ad block 3 bottom end -->
+
+      
+</div>
+<!-- Content Block and Bottom Ads end -->
+<!-- start cite file -->
+<div class="clearBoth">&nbsp;</div>
+<div id="cite">
+    <p>
+        <strong>Cite this content, page or calculator as:</strong>
+    </p>
+    <p class="cite">Furey, Edward &quot;
+        <a href="https://www.calculatorsoup.com/calculators/math/gcf.php" target="_blank">Greatest Common Factor Calculator</a>&quot;; CalculatorSoup,
+        <em>
+            <a href="https://www.calculatorsoup.com">https://www.calculatorsoup.com</a>
+        </em> - Online Calculators
+    </p>
+</div>
+<!-- end cite file -->
+<!-- small device follow buttons -->
+<div id="bottomFollow">
+    <span class="note small">Follow CalculatorSoup:</span>
+    <br>
+    <a itemprop="sameAs" id="facebookFollowTop" href="https://www.facebook.com/calculatorsoup" target="_blank" title="Follow CalculatorSoup on Facebook">
+        <img src="/images/social/share_48_facebook.png" alt="find CalculatorSoup and become a fan on facebook" class="followButton" />
+    </a>
+    <a itemprop="sameAs" id="twitterFollowTop" href="https://twitter.com/calculatorsoup" target="_blank" title="Follow CalculatorSoup on Twitter">
+        <img src="/images/social/share_48_twitter.png" alt="follow CalculatorSoup updates on twitter"  class="followButton" />
+    </a>
+</div>
+</main>
+<!-- close main -->
+  
+</div>
+<!-- close main content div -->
+</div>
+<!-- closed wrapper div -->
+<!-- start footer file -->
+<footer data-swiftype-index="false">
+    <div class="content">
+        <br>
+        <a href="https://www.calculatorsoup.com/help/">Help</a> |
+        <a href="https://www.calculatorsoup.com/suggest-calculator.php" title="request new calculators or suggest changes to a current online calculator">Requests &amp; Suggestions</a> |
+        <a href="https://www.calculatorsoup.com/contact.php">Contact Us</a>
+        <br>
+        <br>
+        <a href="https://www.calculatorsoup.com/legal.php">Legal Information &amp; Terms of Use</a> |
+        <a href="https://www.calculatorsoup.com/privacy.php">Privacy Policy</a>
+        <br>
+        <br>
+        <a href="https://www.calculatorsoup.com/" title="find a calculator online by category or search">Online Calculator Categories</a> |
+        <a href="https://www.calculatorsoup.com/calculators/" title="online calculators listed alphabetically">Calculator List</a> |
+        <a href="https://www.calculatorsoup.com/calculators/conversions/" title="Online Converters listed alphabetically">Converter List</a> |
+        <a href="https://www.calculatorsoup.com/sitemap.php" title="CalculatorSoup.com Sitemap">Site Map</a>
+        <div id="copyright">
+            <p>&copy; 2006 -2020CalculatorSoup&reg;
+                <br>
+               All rights reserved.
+            
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- end footer file -->
+<!-- start footer script file -->
+<script type="text/javascript">
+    window.addEventListener("hashchange", function (event) {
+        var element = document.getElementById(location.hash.substring(1));
+        if (element)
+        {
+
+            if (!/^(?:a|select|input|button|textarea)$/i.test(element.tagName))
+            {
+                element.tabIndex = -1;
+            }
+
+            element.focus();
+        }
+
+    }, false);
+</script>
+<script type="text/javascript">
+    function resetCalculator(form)
+    {
+        // clearing inputs
+        var inputs = form.getElementsByTagName('input');
+        for (var i = 0; i < inputs.length; i++)
+        {
+            switch (inputs[i].type)
+            {
+                case 'number':
+                case 'text':
+                    inputs[i].value = '';
+                    break;
+                case 'radio':
+                case 'checkbox':
+                    inputs[i].checked = false;
+            }
+        }
+
+        // clearing textarea
+        var text = form.getElementsByTagName('textarea');
+        for (var i = 0; i < text.length; i++)
+        {
+            text[i].innerHTML = '';
+        }
+
+        // must check if these are defined or this script breaks
+        var getlink = document.getElementById('get_link');
+        if (typeof (getlink) != 'undefined' && getlink != null)
+        {
+            // exists
+            document.getElementById('get_link').innerHTML = '';
+        }
+
+        var CalcAns = document.getElementById('calculatorAnswer');
+        if (typeof (CalcAns) != 'undefined' && CalcAns != null)
+        {
+            // exists
+            document.getElementById('calculatorAnswer').innerHTML = 'Answer:
+    <br>
+    <br>';
+        }
+
+        //document.getElementById('answer').style.display = 'none';
+
+        return false;
+    }
+
+</script>
+<script>
+    function calculateButtonWorking()
+    {
+        // temporary Calculate button changes until the form submits and returns an Answer on page reload 2019-03-25 across site
+        calculateButton.disabled = true;
+        calculateButton.value = 'Working ...';
+        return true;
+    }
+</script>
+<!-- end footer script file -->
+<!-- InstanceBeginEditable name="foot" -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+</html>
